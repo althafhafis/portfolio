@@ -1,0 +1,93 @@
+.skills {
+    padding-bottom: 4rem;
+}
+.skills__header {
+    text-align: center;
+}
+.skills__header h1 {
+    color: rgb(112, 112, 112);
+    font-family: 'Gordita Medium';
+    font-size: 2rem;
+}
+.skills__header p {
+    font-size: 1.5rem;
+}
+.skills__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.skills__card {
+    background: rgb(45, 45, 45);
+    padding: 2.5rem 5rem;
+    border-radius: 2rem;
+}
+.skills__card:hover {
+    background: transparent;
+    transition: 0.3s;
+}
+.skills__card h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.skills__content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.skills__details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .skills__card h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .skills__card {
+        padding: 2rem 4rem;
+    }
+    .skills__card h3 {
+        font-size: 1.1rem;
+    }
+    .skills__details h4 {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills__header h1 {
+        font-size: 1.5rem;
+    }
+    .skills__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skills__container {
+        padding: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .skills__card {
+        padding: 2rem 3rem;
+    }
+}

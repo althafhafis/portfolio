@@ -1,0 +1,69 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.header_black {
+    background-color: #1a1919;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.nav__logo h1 {
+    font-size: 2rem;
+    font-family: 'Gordita Bold';
+    color: rgb(14, 159, 106);
+}
+.nav__menu {
+    display: flex;
+    column-gap: 2rem;
+}
+.nav__list a {
+    font-size: 1rem;
+    font-family: 'Gordita Medium';
+    color: rgb(112, 112, 112);
+    transition: all 0.3s ease 0s;
+}
+.nav__list a:hover {
+    color: rgb(14, 159, 106);
+}
+.toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #000;
+        opacity: .8;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        row-gap: 1.5rem;
+        z-index: -100;
+        transition: 0.5s;
+    }
+    .active {
+        right: 0;
+    }
+    .nav__list a {
+        font-size: 1.5rem;
+    }
+    .toggle {
+        display: initial;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .nav {
+        justify-content: flex-end;
+        padding: 2rem 0;
+    }
+}

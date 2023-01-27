@@ -1,0 +1,60 @@
+.project {
+    padding: 6rem 0;
+}
+.project__header {
+    text-align: center;
+}
+.project__header h1 {
+    color: rgb(112, 112, 112);
+    font-family: 'Gordita Medium';
+    font-size: 2rem;
+}
+.project__header p {
+    font-size: 1.5rem;
+}
+.project__container {
+    padding: 2rem 0;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.project__card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+.project__img {
+    background: rgb(112, 112, 112);
+    width: 100%;
+}
+.project__img img {
+}
+.pro__details {
+    margin-top: 1rem;
+}
+.pro__btns {
+    display: flex;
+    justify-content: center;
+}
+.pro__btns .btn {
+    margin:  0 10px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .project__container {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+    .project__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

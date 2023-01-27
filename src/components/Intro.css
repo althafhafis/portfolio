@@ -1,0 +1,113 @@
+.intro__container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/intro01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.intro__heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro__heading h1 {
+    font-size: 4rem;
+    font-family: 'Gordita Medium';
+    color: rgb(45, 45, 45);
+}
+.intro__heading h1 span {
+    font-family: 'Gordita Bold';
+    color: rgb(14, 159, 106);
+}
+.intro__heading p {
+    font-size: 1.2rem;
+    font-family: 'Gordita Regular';
+    text-transform: uppercase;
+    color: rgb(112, 112, 112);
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .intro__heading h1 {
+        font-size: 3.5rem;
+    }
+    .intro__heading p {
+        font-size: 1.2rem;
+    }
+    .intro__heading .btn {
+        padding: 8px 16px;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .intro__heading h1 {
+        font-size: 3rem;
+    }
+    .intro__heading p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__container {
+        background-size: auto;
+    }
+    .intro__heading h1 {
+        font-size: 3.5rem;
+    }
+    .intro__heading .btn {
+        padding: 10px 20px;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .intro__heading h1 {
+        font-size: 3rem;
+    }
+    .intro__heading .btn {
+        padding: 8px 16px;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro__heading {
+        align-items:flex-start;
+        padding-left: 15%;
+        max-width: 80%;
+    }
+    .intro__heading h1 {
+        font-size: 4.5rem;
+    }
+    .intro__heading .btn {
+        padding: 6px 12px;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .intro__heading {
+        padding-left: 10%;
+    }
+    .intro__heading h1 {
+        font-size: 4.5rem;
+    }
+    .intro__heading p {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__heading h1 {
+        font-size: 4rem;
+    }
+    .intro__heading p {
+        font-size: .8rem;
+    }
+}

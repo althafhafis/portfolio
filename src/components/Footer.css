@@ -1,0 +1,16 @@
+footer {
+    width: 100%;
+    background: rgba(19, 19, 19, 0.8);
+}
+.social__media {
+    text-align: center;
+    padding: 1rem 0;
+}
+.social__media a {
+    color: #fff;
+    margin: 0 10px;
+}
+.social__media span {
+    cursor: pointer;
+    font-size: 2rem;
+}

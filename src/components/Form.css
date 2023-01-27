@@ -1,0 +1,98 @@
+.contact {
+    padding-top: 6rem;
+}
+.contact__header {
+    text-align: center;
+}
+.contact__header h1 {
+    color: rgb(112, 112, 112);
+    font-family: 'Gordita Medium';
+    font-size: 2rem;
+}
+.contact__header p {
+    font-size: 1.5rem;
+}
+.contact__container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    padding: 60px 0;
+}
+.contact__left h2 {
+    color: rgb(112, 112, 112);
+    font-family: 'Gordita Medium';
+    font-size: 2rem;
+}
+.contact__left p {
+    margin: 24px 0;
+    color: rgb(112, 112, 112);
+}
+.contact__left span {
+    color: rgb(112, 112, 112);
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.contact__form input[type="text"], [type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(45, 45, 45);
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #fff;
+    background-color: #000; 
+}
+.contact__form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(45, 45, 45);
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #fff;
+    height:150px;
+    background-color: #000;
+}
+.contact__form input[type="submit"] {
+    width: 25%;
+    background-color: rgb(78, 175, 124);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 980px) {
+    .contact {
+        height: 100%;
+    }
+    .contact__container {
+    }
+    .contact__left h2 {
+        font-size: 1.9rem;
+    }
+    .contact__left p {
+        font-size: .9rem;
+    }
+    .contact__left span {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        padding-top: 5rem;
+    }
+    .contact__container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        padding-top: 30px;
+    }
+}

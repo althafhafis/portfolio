@@ -1,0 +1,147 @@
+.about {
+    padding: 6rem 0 4rem;
+}
+.about__header {
+    text-align: center;
+}
+.about__header h1 {
+    color: rgb(112, 112, 112);
+    font-family: 'Gordita Medium';
+    font-size: 2rem;
+}
+.about__header p {
+    font-size: 1.5rem;
+}
+.about__container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+.about__photo {
+    display: flex;
+    align-items: center;
+}
+.about__photo img {
+    border-radius: 50%;
+}
+.about__photo img:hover {
+    filter: none;
+    transition: .5s;
+    transform: scale(1.1);
+}
+.about__me h1 {
+    font-size: 2.5rem;
+    font-family: 'Gordita Medium';
+    color: rgb(14, 159, 106);
+}
+.about__me p {
+    font-size: 1.1rem;
+    text-align: justify;
+    color: rgb(112, 112, 112);
+    margin: 1rem 0 2.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .about__me h1 {
+        font-size: 1.8rem;
+    }
+    .about__me p {
+        font-size: 1rem;
+        margin: 1rem 0 2.2rem;
+    }
+    .about__me a {
+        padding: 10px 25px;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .about__header h1 {
+        font-size: 1.5rem;
+    }
+    .about__container {
+        width: 70%;
+        gap: 4rem;
+    }
+    .about__me h1 {
+        font-size: 2.2rem;
+    }
+    .about__me p {
+        font-size: .9rem;
+        margin: 1rem 0 1.8rem;
+    }
+    .about__me a {
+        padding: 10px 25px;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 6rem 0 3rem;
+    }
+    .about__header h1 {
+        font-size: 1.5rem;
+    }
+    .about__container {
+        gap: 3rem;
+    }
+    .about__me h1 {
+        font-size: 1.5rem;
+    }
+    .about__me p {
+        font-size: .8rem;
+        margin: 1rem 0 1.8rem;
+    }
+    .about__me a {
+        padding: 10px 20px;
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about__container {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem 0;
+    }
+    .about__photo {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .about__me {
+        text-align: center;
+    }
+    .about__me h1 {
+        font-size: 1.7rem;
+    }
+    .about__me p {
+        text-align: center;
+        font-size: .9rem;
+    }
+    .about__me a {
+        padding: 10px 15px;
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about__photo {
+        width: 80%;
+    }
+    .about__container {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about__me p {
+        font-size: .8rem;
+        margin: 1rem 0 1.5rem;
+    }
+    .about__me a {
+        padding: 5px 10px;
+    }
+}
