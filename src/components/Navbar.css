@@ -35,6 +35,9 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    .header_black {
+        background-color: transparent;
+    }
     .nav__menu {
         flex-direction: column;
         align-items: center;
