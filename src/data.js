@@ -11,23 +11,29 @@ export const PROJECTS = [
   {
     id: 2,
     projectImage: project01,
+    viewLink: "https://althafhafis.github.io/efood/",
+    sourceLink: "https://github.com/althafhafis/efood",
+  },
+  {
+    id: 3,
+    projectImage: project01,
     viewLink: "https://althafhafis.github.io/patch.github.io/",
     sourceLink: "https://github.com/althafhafis/patch.github.io",
   },
   {
-    id: 3,
+    id: 4,
+    projectImage: project01,
+    viewLink: "https://althafhafis.github.io/Clothing/",
+    sourceLink: "https://github.com/althafhafis/Clothing",
+  },
+  {
+    id: 5,
     projectImage: project01,
     viewLink: "https://althafhafis.github.io/wibbitz.github.io/",
     sourceLink: "https://github.com/althafhafis/wibbitz.github.io",
   },
   {
-    id: 4,
-    projectImage: project01,
-    viewLink: "https://althafhafis.github.io/bitbucket.github.io/",
-    sourceLink: "https://github.com/althafhafis/bitbucket.github.io",
-  },
-  {
-    id: 5,
+    id: 6,
     projectImage: project01,
     viewLink: "https://althafhafis.github.io/casa/",
     sourceLink: "https://github.com/althafhafis/casa",
